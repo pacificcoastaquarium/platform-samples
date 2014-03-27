@@ -4,13 +4,13 @@ require 'json'
 
 # !!! DO NOT EVER USE HARD-CODED VALUES IN A REAL APP !!!
 # Instead, set and test environment variables, like below
-# if ENV['GITHUB_CLIENT_ID'] && ENV['GITHUB_CLIENT_SECRET']
-#  CLIENT_ID        = ENV['GITHUB_CLIENT_ID']
-#  CLIENT_SECRET    = ENV['GITHUB_CLIENT_SECRET']
+# if ENV['cb9abb4c3a9bf93fd8e7'] && ENV['c8ccef1d988dd36a61984cfd58bd6350b3578662']
+#  CLIENT_ID        = ENV['cb9abb4c3a9bf93fd8e7']
+#  CLIENT_SECRET    = ENV['c8ccef1d988dd36a61984cfd58bd6350b3578662']
 # end
 
-CLIENT_ID = ENV['GH_BASIC_CLIENT_ID']
-CLIENT_SECRET = ENV['GH_BASIC_SECRET_ID']
+CLIENT_ID = ENV['cb9abb4c3a9bf93fd8e7']
+CLIENT_SECRET = ENV['c8ccef1d988dd36a61984cfd58bd6350b3578662']
 
 use Rack::Session::Cookie, :secret => rand.to_s()
 
